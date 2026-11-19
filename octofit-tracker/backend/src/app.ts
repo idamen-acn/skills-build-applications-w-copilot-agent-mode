@@ -12,4 +12,3 @@ export function createApp() {
     response.status(error.status ?? 500).json({ error: error.message });
   });
   return app;
-}
